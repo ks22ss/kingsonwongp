@@ -2,7 +2,7 @@ import React from 'react'
 
 const TechStackSection = () => {
   return (
-    <section className='flex flex-col justify-center items-center text-white my-16'>
+    <section id="tech-stack" className='flex flex-col justify-center items-center text-white py-24'>
       <div className='flex flex-col py-8'>
         <h2 className='text-4xl font-bold text-center'>Tech Stack</h2>
         <p className='text-center mt-4'>Here are the technologies that I have been working with recently</p>

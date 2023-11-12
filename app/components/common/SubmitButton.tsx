@@ -1,16 +1,19 @@
+'use client'
+
 import React from 'react'
 interface Props {
   text: string,
-  link: string
+  callback: () => void
 }
-const CallToAction: React.FC<Props> = ({text, link}) => {
+const SubmitButton: React.FC<Props> = ({text, callback}) => {
   return (
-    <a 
-    href={link}
+    <button 
+    type='button'
+    onClick={callback}
     className='px-4 py-2 md:px-6 md:py-3 bg-primary text-white font-bold rounded-lg text-sm md:text-lg'>
       {text}
-    </a>
+    </button>
   )
 }
 
-export default CallToAction
+export default SubmitButton
