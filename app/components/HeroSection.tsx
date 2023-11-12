@@ -24,7 +24,7 @@ const HeroSection = () => {
       </div>
 
       <div className='hidden md:flex justify-center items-center'>
-        <img src='/my_profile_pic.png' alt="my profile pic" className='w-[600px] h-[600px]'/>
+        <img src='/my_profile_pic.png' alt="my profile pic" className='w-fit h-fit'/>
       </div>
     </main>
   )
