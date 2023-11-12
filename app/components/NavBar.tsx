@@ -49,7 +49,7 @@ const NavBar = () => {
           </div>
           <div className='bottom-0 left-0 grid grid-rows-1 grid-cols-3 w-full py-4 text-center '>
             <a onClick={() => setShowMenu(false)} href='https://github.com/ks22ss' className="cursor-pointer border-t-2 border-gray-300 p-2">GitHub</a>
-            <a onClick={() => setShowMenu(false)} href='www.linkedin.com/in/kingson-wong-2b1651255' className="cursor-pointer border-l-2 border-r-2 border-t-2 border-gray-300 p-2">Linkedin</a>
+            <a onClick={() => setShowMenu(false)} href='https://www.linkedin.com/in/kingson-wong-2b1651255' className="cursor-pointer border-l-2 border-r-2 border-t-2 border-gray-300 p-2">Linkedin</a>
             <a onClick={() => setShowMenu(false)} href='#contact' className="cursor-pointer border-t-2 border-gray-300 p-2">Contact Me</a>
           </div>
         </div>
