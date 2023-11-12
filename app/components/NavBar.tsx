@@ -10,11 +10,11 @@ const NavBar = () => {
 
     <div className=' relative flex flex-row justify-between items-center text-white mt-4 mb-16 pr-4'>
       <div className='ml-48'>
-      <a className='fixed block top-5 left-6 cursor-pointer  z-20 sm:hidden' onClick={() => setShowMenu(prev => !prev)}>
+      <a className='fixed block top-5 left-6 cursor-pointer  z-20 md:hidden' onClick={() => setShowMenu(prev => !prev)}>
         <img className='' src="/menu.png" width={30} height={30}/>
       </a>
 
-      <img className='hidden sm:block absolute -top-10 left-4' src="/logo.png"/>
+      <img className='hidden md:block absolute -top-10 left-4' src="/logo.png"/>
       <div className='hidden md:flex flex-row justify-around items-center gap-8 font-semibold '>
         <a href='#tech-stack' className="cursor-pointer">Tech Stack</a>
         <a href='#career' className="cursor-pointer">Career</a>
